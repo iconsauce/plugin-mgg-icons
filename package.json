@@ -1,0 +1,25 @@
+{
+  "name": "omnicon-mgg-icons",
+  "version": "1.0.0",
+  "description": "This plugin is created to work with omnicon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@maggioli-design-system/svg-icons": "^2.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omncn/omnicon-mgg-icons.git"
+  },
+  "keywords": [
+    "plugin"
+  ],
+  "author": "Vittorio Vittori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omncn/omnicon-mgg-icons/issues"
+  },
+  "homepage": "https://github.com/omncn/omnicon-mgg-icons#readme"
+}
