@@ -1,5 +1,5 @@
 {
-  "name": "omnicon-mgg-icons",
+  "name": "@iconsauce/plugin-mgg-icons",
   "version": "1.0.0",
   "description": "This plugin is created to work with omnicon",
   "main": "index.js",
