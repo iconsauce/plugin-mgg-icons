@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omncn/omnicon-mgg-icons.git"
+    "url": "git+https://github.com/iconsauce/plugin-mgg-icons.git"
   },
   "keywords": [
     "plugin"
@@ -19,7 +19,7 @@
   "author": "Vittorio Vittori",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/omncn/omnicon-mgg-icons/issues"
+    "url": "https://github.com/iconsauce/plugin-mgg-icons/issues"
   },
-  "homepage": "https://github.com/omncn/omnicon-mgg-icons#readme"
+  "homepage": "https://github.com/iconsauce/plugin-mgg-icons#readme"
 }
