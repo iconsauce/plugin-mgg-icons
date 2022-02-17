@@ -1,7 +1,7 @@
 import { dirname } from 'path'
 import { IconsaucePlugin } from '@iconsauce/plugin'
 
-export const maggioliIconsPlugin: IconsaucePlugin = {
+export const maggioliSvgIconsPlugin: IconsaucePlugin = {
   prefix: 'mgg',
   regex: {
     code: /(mgg)(\/{1}[0-9a-z-]+){1}/gm,
