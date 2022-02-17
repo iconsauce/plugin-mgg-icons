@@ -11,7 +11,7 @@ module.exports = {
   ],
   fontSize: '24px',
   plugin: [
-    require('@iconsauce/plugin-mgg-icons'),
+    require('@iconsauce/mgg-icons'),
   ],
 }
 ```
