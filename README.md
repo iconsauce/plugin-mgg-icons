@@ -41,16 +41,19 @@ This plug-in will generate only icons used:
 ```css
 @font-face {
   font-family: "iconsauce";
-  src: url(data:font/truetype;charset=utf-8;base64,AAE...&#x3D;);
+  src: url("data:font/truetype;charset=utf-8;base64,A...Z") format("truetype");
 }
-[class^="mgg/"],
-[class*=" mgg/"] {
+
+[class^="mgg/"], [class*=" mgg/"] {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "iconsauce" !important;
   font-size: 24px;
   font-style: normal;
+  font-weight: 400;
+  line-height: 1;
 }
+
 .mgg\/adv-denied::before { content: "\ea01"; }
 .mgg\/isbn::before { content: "\ea02"; }
 .mgg\/logo-gpl::before { content: "\ea03"; }
