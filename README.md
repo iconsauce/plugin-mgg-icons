@@ -1,8 +1,8 @@
 # @iconsauce/mgg-icons
 
-This plugin scrapes Material Design Icons node module `@maggioli-design-system/svg-icons` icon library to make you use it with `iconsauce`:
-
 This plugin scrapes **Maggioli SVG Icons** collected by [@maggioli-design-system/svg-icons](https://www.npmjs.com/package/@maggioli-design-system/svg-icons) which contains svg versions.
+
+For more infos go to [iconsauce docs][iconsauce-docs].
 
 ```js
 module.exports = {
@@ -60,3 +60,5 @@ This plug-in will generate only icons used:
 .mgg\/signpost::before { content: "\ea04"; }
 .mgg\/terminal::before { content: "\ea05"; }
 ```
+
+[iconsauce-docs]: https://iconsauce.github.io/docs/
