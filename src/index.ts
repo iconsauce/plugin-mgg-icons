@@ -10,5 +10,5 @@ const maggioliSvgIconsPlugin: IconsaucePlugin = {
   selector: (path: RegExpMatchArray) => `mgg/${path[2].replace(/[_]+/g, '-')}`,
   path: `${dirname(require.resolve('@maggioli-design-system/svg-icons/package.json'))}/**/*.svg`,
 }
-
+export { maggioliSvgIconsPlugin }
 module.exports = maggioliSvgIconsPlugin
