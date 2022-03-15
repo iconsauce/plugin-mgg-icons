@@ -1,16 +1,17 @@
 {
   "name": "@iconsauce/mgg-icons",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "This plugin is created to work with iconsauce",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --declaration"
+    "build": "tsc --declaration",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@maggioli-design-system/svg-icons": "^2.6.3"
   },
   "devDependencies": {
-    "@iconsauce/core": "^0.2.0",
+    "@iconsauce/core": "^1.1.0",
     "@iconsauce/plugin": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
