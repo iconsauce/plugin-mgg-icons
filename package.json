@@ -1,6 +1,6 @@
 {
   "name": "@iconsauce/mgg-icons",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This plugin is created to work with iconsauce",
   "main": "lib/index.js",
   "scripts": {

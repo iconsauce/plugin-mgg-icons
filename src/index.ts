@@ -8,7 +8,7 @@ const maggioliSvgIconsPlugin: IconsaucePlugin = {
     lib: /([a-zA-Z_\-/]+\/([0-9a-zA-Z_-]+)\.svg)/,
   },
   selector: (path: RegExpMatchArray) => `mgg/${path[2].replace(/[_]+/g, '-')}`,
-  path: `${resolve('node_modules', '@maggioli-design-system/svg-icons')}/**/*.svg`,
+  path: `${resolve(__dirname, '../../../@maggioli-design-system/svg-icons')}/**/*.svg`,
 }
 
 export default maggioliSvgIconsPlugin
